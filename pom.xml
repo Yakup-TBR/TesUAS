@@ -39,9 +39,9 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>TesUAS</exec.mainClass>
-        <sonar.projectKey>yakuptbr_TesUAS</sonar.projectKey> <!-- Replace with your SonarCloud project key -->
-        <sonar.organization>yakuptbr</sonar.organization> <!-- Replace with your SonarCloud organization -->
-        <sonar.host.url=https://sonarcloud.io
+        <sonar.projectKey>yakuptbr_TesUAS</sonar.projectKey>
+        <sonar.organization>yakuptbr</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <build>
