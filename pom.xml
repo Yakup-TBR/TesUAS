@@ -28,9 +28,9 @@
 
     <distributionManagement>
         <repository>
-          <id>github</id>
-          <name>GitHub Packages</name>
-          <url>https://maven.pkg.github.com/Yakup-TBR/TesUAS</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Yakup-TBR/TesUAS</url>
         </repository>
     </distributionManagement>
     
@@ -39,5 +39,18 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>TesUAS</exec.mainClass>
+        <sonar.projectKey>yakuptbr_TesUAS</sonar.projectKey> <!-- Replace with your SonarCloud project key -->
+        <sonar.organization>yakuptbr</sonar.organization> <!-- Replace with your SonarCloud organization -->
+        <sonar.host.url=https://sonarcloud.io
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
