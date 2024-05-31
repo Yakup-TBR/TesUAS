@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class CalculatorTest {
     
     @Test
-    public void testTambah() {
+    public void testTambah() { 
         assertEquals(5, Calculator.tambah(2, 3));
         assertEquals(-1, Calculator.tambah(-2, 1));
         assertEquals(0, Calculator.tambah(0, 0));
