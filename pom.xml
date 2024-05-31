@@ -12,11 +12,7 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
         </dependency>
-        <dependency>
-            <groupId>contohprojectmaven</groupId>
-            <artifactId>contohproject</artifactId>
-            <version>0.3.6</version>
-        </dependency>
+        <!-- Tambahkan dependensi lain di sini jika diperlukan -->
     </dependencies>
 
     <distributionManagement>
